@@ -193,7 +193,7 @@ include_once '../../includes/header.php';
     <script>
         // Open the modal and set the iframe source using pickup and drop-off addresses
         function viewMap(pickup, dropoff) {
-            var baseUrl = "https://www.google.com/maps/embed/v1/directions?key=AIzaSyAQXDZ_wdWis0b3gF6286tXhKhE-OKABAo";
+            var baseUrl = "https://www.google.com/maps/embed/v1/directions?key=EXAMPLE";
             var url = baseUrl + "&origin=" + encodeURIComponent(pickup) + "&destination=" + encodeURIComponent(dropoff);
             document.getElementById("mapFrame").src = url;
             document.getElementById("mapModal").style.display = "flex";
